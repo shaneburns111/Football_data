@@ -5,6 +5,7 @@ Created on Thu Nov  1 13:47:47 2018
 @author: sburns2
 """
 import pandas as pd
+pd.options.mode.chained_assignment = None  # default='warn'
 import csv 
 from numpy import array
 from numpy import argmax
